@@ -1,0 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC60Jy0ryDbk-RrziZTnsTw9CVUlOQ4bhw",
+  authDomain: "rare-lattice-473017-p8.firebaseapp.com",
+  projectId: "rare-lattice-473017-p8",
+  storageBucket: "rare-lattice-473017-p8.firebasestorage.app",
+  messagingSenderId: "1005377450677",
+  appId: "1:1005377450677:web:661cac28353a0664fd84fc",
+  measurementId: "G-NXHNR50L6M"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
